@@ -32,3 +32,7 @@ See [`formal_system.md`](./notes/formal_system.md) and [`resources.md`](./notes/
 - `first-attempt.py`: tried using Python `typing` for ADT, datatypes got too confusing, abandoned
 - `partial-unifier.py`: tried again using Python tuples, ended up making a one-sided unifier, capable of verifying propositional logic proofs, automatic modus ponens types but manual axiom types
 - `formula-parser.rs`: started working on a parser for implicational formulas, partially as an exercise in learning how lexers and parsers work
+
+## License
+
+- This project is licensed under the GNU General Public License v3.0 or later. See LICENSE for details.
