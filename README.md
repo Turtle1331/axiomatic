@@ -6,7 +6,7 @@ Adventures in type checking and automated theorem proving
 
 Due to the Curry-Howard correspondence, Hilbert-style proofs in intuitionistic implicational propositional calculus correspond to type inhabitations in SK combinator calculus. Therefore, we can verify constructive proofs in propositional logic using a type checker for SK combinator expressions. Type inference automatically fills in the verbose details of the proof.
 
-See [`formal_system.md`](./notes/formal_system.md) and [`resources.md`](./notes/frmal_system.md) for details.
+See [`formal_system.md`](./notes/formal_system.md) and [`resources.md`](./notes/resources.md) for details.
 
 ## Status
 
