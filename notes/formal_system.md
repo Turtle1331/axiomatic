@@ -24,12 +24,13 @@
 
 ```
 constant = "A" | "B" | "C" | ... | "Z";
-formula = constant | "(", formula, " -> ", formula, ")";
+formula = "bot" | constant | "(", formula, " -> ", formula, ")";
 ```
 
 - axiom schemes:
   - K: `(a -> (b -> a))` for well-formed formulas `a`, `b`
   - S: `((a -> (b -> c)) -> ((a -> b) -> (a -> c)))` for well-formed formulas `a`, `b`
+  - falsity (aka bottom, absurdity): `(bot -> a)` for well-formed formulas `a`
 - inference rules:
   - modus ponens: `(a -> b)`, `a` |- `b` for well-formed formulas `a`, `b`
     - i.e. given well-formed formulas `a` and `b`, if `(a -> b)` and `a` are theorems, then `b` is a theorem

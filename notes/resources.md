@@ -13,6 +13,13 @@ Outline of Wikipedia articles which provide the conceptual framework for this pr
     - [Details](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence#Hilbert-style_deduction_systems_and_combinatory_logic)
     - [Brief mention](https://en.wikipedia.org/wiki/Hilbert_system#Further_connections)
     - [Hilbert-style proof of a -> a <=> type inhabitation I = SKK](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence#The_identity_combinator_seen_as_a_proof_of_%CE%B1_%E2%86%92_%CE%B1_in_Hilbert-style_logic)
+  - [Bottom](https://en.wikipedia.org/wiki/Bottom_type#Computer_science_applications)
+    - Falsity / logical absurdity <=> bottom type
+      - Uninhabited type
+      - Type of function that never returns
+    - [Least element](https://en.wikipedia.org/wiki/Greatest_element_and_least_element#Top_and_bottom) of a lattice
+      - [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra_(structure)) for classical logic ([examples](https://en.wikipedia.org/wiki/Boolean_algebra_(structure)#Examples))
+      - [Heyting algebra](https://en.wikipedia.org/wiki/Heyting_algebra) for intuitionistic logic ([examples](https://en.wikipedia.org/wiki/Heyting_algebra#Examples))
 
 ## Unsorted
 - [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
