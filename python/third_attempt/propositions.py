@@ -26,7 +26,7 @@ class Implication:
 
 @dataclass(frozen=True)
 class Application:
-    implication: Implication
+    implication: Term
     premise: Term
 
 
