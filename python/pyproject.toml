@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "axiomatic"
+version = "0.1.0"
+description = "adventures in type checking and automated theorem proving"
+authors = ["Turtle1331 <turtle1331@users.noreply.github.com>"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+
+[tool.poetry.dev-dependencies]
+pytype = ">=2023.3.8"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
