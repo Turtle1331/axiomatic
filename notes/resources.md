@@ -1,6 +1,6 @@
 # Resources
 
-Outline of Wikipedia articles which provide the conceptual framework for this project
+Outline of (mostly) Wikipedia articles which provide the conceptual framework for this project
 
 ## Topics
 - [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
@@ -20,6 +20,13 @@ Outline of Wikipedia articles which provide the conceptual framework for this pr
     - [Least element](https://en.wikipedia.org/wiki/Greatest_element_and_least_element#Top_and_bottom) of a lattice
       - [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra_(structure)) for classical logic ([examples](https://en.wikipedia.org/wiki/Boolean_algebra_(structure)#Examples))
       - [Heyting algebra](https://en.wikipedia.org/wiki/Heyting_algebra) for intuitionistic logic ([examples](https://en.wikipedia.org/wiki/Heyting_algebra#Examples))
+-  [Unification](https://en.wikipedia.org/wiki/Unification_%28computer_science%29)
+  - key parts
+    - [formal definition](https://en.wikipedia.org/wiki/Unification_%28computer_science%29#Formal_definition)
+    - [syntactic first-order unification algorithm](https://en.wikipedia.org/wiki/Unification_%28computer_science%29#A_unification_algorithm)
+  - [first-order vs higher-order unification](https://cs.stackexchange.com/a/65879)
+  - [semi-decidable unification for typed lambda calculus](https://gallium.inria.fr/~huet/PUBLIC/TCS_1975.pdf)
+  - [Hindley-Milner type system](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system)
 
 ## Unsorted
 - [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
