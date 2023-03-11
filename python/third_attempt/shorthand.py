@@ -47,7 +47,7 @@ def _apply(terms: tuple[Term, ...]) -> Term:
         case 1:
             return terms[0]
         case _:
-            return Application(_apply(terms[-1:]), terms[-1])
+            return Application(_apply(terms[:-1]), terms[-1])
 
 
 imply = tree_reduce(_imply)
