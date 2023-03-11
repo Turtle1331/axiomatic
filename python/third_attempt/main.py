@@ -1,10 +1,14 @@
 from __future__ import annotations
 
 
+import dataclasses as D
+import json
+
 import typing as T
 
-from propositions import Term, Variable
+from propositions import Term, Variable, Implication, Application
 from shorthand import imply, apply
+from unifier import unify, verify, decompose, substitute
 
 
 X = Variable("X")
@@ -21,6 +25,11 @@ def main():
     print(skk)
 
     # unify SKK
+    P = Variable("P")
+    Q = Variable("Q")
+    modus_ponens = apply(imply(P, Q), P)
+
+    unify({(skk, modus_ponens)})
 
 
 if __name__ == "__main__":

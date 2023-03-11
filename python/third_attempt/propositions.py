@@ -15,7 +15,7 @@ class Bottom:
 
 @dataclass(frozen=True)
 class Variable:
-    name: str
+    name: str | int
 
 
 @dataclass(frozen=True)
